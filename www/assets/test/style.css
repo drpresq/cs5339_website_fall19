@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 100%;
+	background: #004870;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.header {
+	width: 98%;
+	
+	color: white;
+	background: #fd7037;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-left: none;
+	padding: 20px;
+}
+form, .content {
+
+	width: 98%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: #e7e7e8;
+	
+}
+
+.fields {
+
+	width: 100%;
+}
+
+.inputLine {
+
+	margin: 10px 10px 10px 10px;
+}
+
+.inputLine label {
+	width: 20%;
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.inputLine input {
+	height: 30px;
+	width: 20%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #333333;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
